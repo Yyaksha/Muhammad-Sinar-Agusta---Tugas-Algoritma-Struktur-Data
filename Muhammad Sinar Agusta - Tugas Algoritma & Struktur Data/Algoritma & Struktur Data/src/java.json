@@ -1,0 +1,13 @@
+{
+
+    "Public Static Void Main": {
+        "prefix": "log",
+        "body": [
+            "public static void main(String[] args) {",
+            "\tSystem.out.println();", 
+            "\t$0", 
+            "}"
+        ],
+        "description": "Membuat metode main"
+    }
+}
