@@ -1,141 +1,139 @@
 .header {
   height: 55px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
+
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: rgb(216, 216, 216);
-  z-index: 100;
+  border-bottom-color: rgb(228, 228, 228);
 }
-
 
 .left-section {
   display: flex;
   align-items: center;
+}
 
-}
 .hamburger-menu {
-  height: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
+
 .youtube-logo {
   height: 20px;
 }
 
-
 .middle-section {
   flex: 1;
   margin-left: 70px;
-  margin-right: 40px;
-  max-width: 470px;
+  margin-right: 35px;
+  max-width: 500px;
   display: flex;
   align-items: center;
 }
+
 .search-bar {
   flex: 1;
-  height: 34px;
+  height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border: 1px solid rgb(199, 197, 197);;
+  border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
-  width: 0;
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  transition: border-color 0.3s ease;
+  width: 0;
 }
-.search-bar:foc {
-  border-color: rgb(77, 77, 255);
-}
+
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
 }
+
 .search-button {
-  height: 38px;
+  height: 40px;
   width: 66px;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(240, 240, 240);
   border-width: 1px;
   border-style: solid;
-  border-radius: 2px;
-  border-color: rgb(199, 197, 197);
+  border-color: rgb(192, 192, 192);
   margin-left: -1px;
   margin-right: 10px;
 }
+
 .search-button,
 .voice-search-button,
-.upload-icon-container,
-.youtube-apps-container,
-.notifications-icon-container {
-  position: relative;
+.upload-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  position: relative;
 }
+
 .search-button .tooltip,
 .voice-search-button .tooltip,
-.upload-icon-container .tooltip,
-.youtube-apps-container .tooltip,
-.notifications-icon-container .tooltip {
-  font-family: Roboto, Arial;
+.upload-icon-container .tooltip {
   position: absolute;
   background-color: gray;
   color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   border-radius: 2px;
   font-size: 12px;
-  bottom: -40px;
+  bottom: -30px;
   opacity: 0;
-  transition: opacity 0.2s;
+  transition: opacity 0.15s;
   pointer-events: none;
   white-space: nowrap;
 }
+
 .search-button:hover .tooltip,
 .voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip,
-.youtube-apps-container:hover .tooltip,
-.notifications-icon-container:hover .tooltip {
+.upload-icon-container:hover .tooltip {
   opacity: 1;
 }
 
 .search-icon {
-  height: 24px;
+  height: 25px;
 }
+
 .voice-search-button {
-  background-color: rgb(248, 246, 246);
   height: 40px;
   width: 40px;
-  border-radius: 30px;
+  border-radius: 20px;
   border: none;
+  background-color: rgb(245, 245, 245);
 }
+
 .voice-search-icon {
   height: 24px;
 }
 
-
 .right-section {
-  width:  180px;
+  width: 180px;
+  margin-right: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 22px;
   flex-shrink: 0;
 }
+
 .upload-icon {
   height: 24px;
 }
+
 .youtube-apps-icon {
   height: 24px;
 }
+
 .notifications-icon {
   height: 24px;
 }
@@ -143,23 +141,22 @@
 .notifications-icon-container {
   position: relative;
 }
+
 .notifications-count {
-  font-family: Roboto, Arial;
-  background-color: rgb(207, 9, 9);
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(200, 0, 0);
   color: white;
   font-size: 11px;
-  border-radius: 20px;
-  position: absolute;
-  top: -3px;
-  right: -9px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
+  border-radius: 10px;
 }
 
-.channel-pictures-icon {
+.current-user-picture {
   height: 32px;
-  border-radius: 20px;
-  cursor: pointer;
+  border-radius: 16px;
 }
