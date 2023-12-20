@@ -11,375 +11,750 @@
         <link rel="stylesheet" href="styles/sidebar.css">
     </head>
     <body>
-        <div class="header">
-            <div class="left-section">
-                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img class="youtube-logo" src="icons/youtube-logo.svg">
-                </a>
-            </div>
-            <div class="middle-section">
-                <input class="search-bar" type="text" placeholder="Search">
-                <button class="search-button">
-                    <img class="search-icon" src="icons/search.svg">
-                    <div class="tooltip">Search</div>
-                </button>
-                <button class="voice-search-button">
-                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
-                    <div class="tooltip">Search with your voice</div>
-                </button>
-            </div>
-            <div class="right-section">
-                <div class="upload-icon-container">
-                    <img class="upload-icon" src="icons/upload.svg">
-                    <div class="tooltip">Create</div>
+        <nav class="desktop-nav">
+            <div class="header">
+                <div class="left-section">
+                    <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="youtube-logo" src="icons/youtube-logo.svg">
+                    </a>
                 </div>
-                <div class="youtube-apps-container">
-                    <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-                    <div class="tooltip">YouTube apps</div>
+                <div class="middle-section">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="icons/search.svg">
+                        <div class="tooltip">Search</div>
+                    </button>
+                    <button class="voice-search-button">
+                        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">Search with your voice</div>
+                    </button>
                 </div>
-                <div class="notifications-icon-container">
-                    <img class="notifications-icon" src="icons/notifications.svg">
-                    <div class="notifications-count">69</div>
-                    <div class="tooltip">Notifications</div>
-                </div>
-                <img class="channel-pictures-icon" src="channel-pictures/channels01_profile.jpg">
-            </div>
-        </div>
-
-        <div class="sidebar">
-            <div class="sidebar-link">
-                <img src="icons/home.svg">
-                <div>Home</div>
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/explore.svg">
-                <div>Explore</div>
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/subscriptions.svg">
-                <div>Subscriptions</div>
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/originals.svg">
-                <div>Originals</div>
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/youtube-music.svg">
-                <div>Youtube Music</div>
-            </div>
-            <div class="sidebar-link">
-                <img src="icons/library.svg">
-                <div>Library</div>
-            </div>
-        </div>
-
-        <div class="video-grid">
-            <div class="video-preview"> 
-                <div class="thumbnail-row"> 
-                    <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
-                    <div class="video-time">00:00</div>
-                </div>
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
-                    </div >
-                    <div class="video-info">
-                        <p class="video-title">
-                            Talking Tech and AI with Google CEO Sundar Pichai!
-                        </p>
-                        <p class="video-author">
-                            Marques Brownlee
-                        </p>
-                        <p class="video-stats">
-                            3.4M views &#183; 6 months ago
-                        </p>
+                <div class="right-section">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="icons/upload.svg">
+                        <div class="tooltip">Create</div>
                     </div>
-                   
+                    <div class="youtube-apps-container">
+                        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                        <div class="tooltip">YouTube apps</div>
+                    </div>
+                    <div class="notifications-icon-container">
+                        <img class="notifications-icon" src="icons/notifications.svg">
+                        <div class="notifications-count">69</div>
+                        <div class="tooltip">Notifications</div>
+                    </div>
+                    <img class="channel-pictures-icon" src="channel-pictures/channels01_profile.jpg">
                 </div>
             </div>
     
-            <div class="video-preview"> 
-                <div class="thumbnail-row"> 
-                    <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
-                    <div class="video-time">00:00</div>
+            <div class="sidebar">
+                <div class="sidebar-link">
+                    <img src="icons/home.svg">
+                    <div>Home</div>
                 </div>
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            Try Not To Laugh Challenge #9
-                        </p>
-                        <p class="video-author">
-                            Markiplier
-                        </p>
-                        <p class="video-stats">
-                            19M views &#183; 4 years ago
-                        </p>
-                    </div>
-                   
+                <div class="sidebar-link">
+                    <img src="icons/explore.svg">
+                    <div>Explore</div>
                 </div>
-            </div>
-    
-            <div class="video-preview"> 
-                <a href="https://www.youtube.com/live/G9bTYw8iRsw?si=GWJQVBGBqO4EkiTs" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq720.webp">
-                        <div class="video-time">59.58</div>
-                    </div>
-                </a>
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Windah Basudara.jpg">
-                    </div >
-                    <div class="video-info">
-                        <p class="video-title">
-                            UPDATE BARU AKU UPGRADE EMPANGKU JADI SEMANGKA! Aku si JURAGAN EMPANG
-                        </p>
-                        <p class="video-author">
-                            Windah Basudara
-                        </p>
-                        <p class="video-stats">
-                            761K views &#183; 10 days ago
-                        </p>
-                    </div>                  
+                <div class="sidebar-link">
+                    <img src="icons/subscriptions.svg">
+                    <div>Subscriptions</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/originals.svg">
+                    <div>Originals</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/youtube-music.svg">
+                    <div>Youtube Music</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/library.svg">
+                    <div>Library</div>
                 </div>
             </div>
     
-            <div class="video-preview"> 
-                <a href="https://youtu.be/M-4KIU_qTXs?si=6eRimQgtffMDjc1U" target="_blank">
+            <div class="video-grid">
+                <div class="video-preview"> 
                     <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq721.webp">
-                        <div class="video-time">47.45</div>
+                        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+                        <div class="video-time">00:00</div>
                     </div>
-                </a>
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/channels5_profile.jpg">
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                Talking Tech and AI with Google CEO Sundar Pichai!
+                            </p>
+                            <p class="video-author">
+                                Marques Brownlee
+                            </p>
+                            <p class="video-stats">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>
+                       
                     </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            Cara Main Heartsteel Supaya Tidak Too Soon | TFT Set 10 Guide | Teamfight Tactics Indonesia
-                        </p>
-                        <p class="video-author">
-                            maryo - TFT
-                        </p>
-                        <p class="video-stats">
-                            12k views &#183; 3 days ago
-                        </p>
-                    </div>           
+                </div>
+        
+                <div class="video-preview"> 
+                    <div class="thumbnail-row"> 
+                        <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+                        <div class="video-time">00:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Try Not To Laugh Challenge #9
+                            </p>
+                            <p class="video-author">
+                                Markiplier
+                            </p>
+                            <p class="video-stats">
+                                19M views &#183; 4 years ago
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://www.youtube.com/live/G9bTYw8iRsw?si=GWJQVBGBqO4EkiTs" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720.webp">
+                            <div class="video-time">59.58</div>
+                        </div>
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Windah Basudara.jpg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                UPDATE BARU AKU UPGRADE EMPANGKU JADI SEMANGKA! Aku si JURAGAN EMPANG
+                            </p>
+                            <p class="video-author">
+                                Windah Basudara
+                            </p>
+                            <p class="video-stats">
+                                761K views &#183; 10 days ago
+                            </p>
+                        </div>                  
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/M-4KIU_qTXs?si=6eRimQgtffMDjc1U" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq721.webp">
+                            <div class="video-time">47.45</div>
+                        </div>
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channels5_profile.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Cara Main Heartsteel Supaya Tidak Too Soon | TFT Set 10 Guide | Teamfight Tactics Indonesia
+                            </p>
+                            <p class="video-author">
+                                maryo - TFT
+                            </p>
+                            <p class="video-stats">
+                                12k views &#183; 3 days ago
+                            </p>
+                        </div>           
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/N0SdKcKxAzw?si=1sv7MkAoUG_PXG5K" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq722.webp">
+                            <div class="video-time">9.39</div>
+                        </div>
+                    </a>
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channels6_profile.jpg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                SEBAGAI MANUSIA KITA SEMAKIN BER-EVOLUSI (ke belakang) 🥵 - Ark Survival Ascended pt.2
+                            </p>
+                            <p class="video-author">
+                                davidbeatt
+                            </p>
+                            <p class="video-stats">
+                                7,8K views &#183; 1 day ago
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/live/-bFuNtvmmbE?si=6e5XByZQBv7v3WwL" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault.webp">
+                            <div class="video-time">1.17.37</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                AKHIRNYA TFT KELUAR DI MOBILE!! INGFOKAN META BARU - TEAMFIGHT TACTICS
+                            </p>
+                            <p class="video-author">
+                                Luthfi Halimawan
+                            </p>
+                            <p class="video-stats">
+                                93K views &#183; 13 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://www.youtube.com/live/3Nb4o_J3z1A?si=bHDcFzllGeNxbt5C" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault2.webp">
+                            <div class="video-time">2.52.39</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                LETHAL COMPANY DAY! - <span class="blue-text">@GeraldLiuTV</span> <span class="blue-text">@2rockk</span> <span class="blue-text">@2Rock</span> <span class="blue-text">@heiakim</span> <span class="blue-text">@DavidBeatt</span>
+                            </p>
+                            <p class="video-author">
+                                Luthfi Halimawan
+                            </p>
+                            <p class="video-stats">
+                                99K views &#183; 17 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+                
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/LGbPSvwXEaQ?si=BEo9AkGSq4fVGI92" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault3.webp">
+                            <div class="video-time">11.10</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/RiseUp.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                10 Karakter Legends of Runeterra yang Cocok Dibuat Jadi Champions!
+                            </p>
+                            <p class="video-author">
+                                RISEUPTVID
+                            </p>
+                            <p class="video-stats">
+                                5,1K views &#183; 23 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+                
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/bqpwY7JoFck?si=xRkbVHu4RI2tW4Hl" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (1).webp">
+                            <div class="video-time">15.27</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/xceed.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Dua Karakter OP Parah! Wajib Gacha Yang Mana? - Black Clover M (Android)
+                            </p>
+                            <p class="video-author">
+                                Lein Xceed
+                            </p>
+                            <p class="video-stats">
+                                15K views &#183; 2 days ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/Kg8ZHBZS_2M?si=5DcUxxa08ZV8Wv2Z" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (2).webp">
+                            <div class="video-time">21.23</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Kurohiko.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                🔥 16 WinStreak, Samira Carry Reroll dengan Teknik Fast-8 - Combo Synergy Country Executioner Emo TFT
+                            </p>
+                            <p class="video-author">
+                                Kurohiko
+                            </p>
+                            <p class="video-stats">
+                                2,168 views &#183;  18 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/YFCzzYJ55ao?si=s_qXzEWyjyWsFe1_" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault4.webp">
+                            <div class="video-time">40.29</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Deankt.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                VLOG MOTION IME FEST DAY 1 - KTMU BANG WINDAH !! NNTN JKT48 DARI DEKET BGT !! DI NOTICE ZEE JUGA !!
+                            </p>
+                            <p class="video-author">
+                                DEANKT
+                            </p>
+                            <p class="video-stats">
+                                213k views &#183; 5 days ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/tUPw9ViaaiQ?si=zHmYKoFU_tXf-F04" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (3).webp">
+                            <div class="video-time">36.39</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Miawaug.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Keseruan MiawAug Jalan Jalan Di Motion Ime Festival 2023
+                            </p>
+                            <p class="video-author">
+                                MiawAug
+                            </p>
+                            <p class="video-stats">
+                                262k views &#183; 1 day ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <nav class="mobile-nav">
+            <div class="header">
+                <div class="left-section">
+                    <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img class="youtube-logo" src="icons/youtube-logo.svg">
+                    </a>
+                </div>
+                <div class="middle-section">
+                    <input class="search-bar" type="text" placeholder="Search">
+                    <button class="search-button">
+                        <img class="search-icon" src="icons/search.svg">
+                        <div class="tooltip">Search</div>
+                    </button>
+                    <button class="voice-search-button">
+                        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                        <div class="tooltip">Search with your voice</div>
+                    </button>
+                </div>
+                <div class="right-section">
+                    <div class="upload-icon-container">
+                        <img class="upload-icon" src="icons/upload.svg">
+                        <div class="tooltip">Create</div>
+                    </div>
+                    <div class="youtube-apps-container">
+                        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                        <div class="tooltip">YouTube apps</div>
+                    </div>
+                    <div class="notifications-icon-container">
+                        <img class="notifications-icon" src="icons/notifications.svg">
+                        <div class="notifications-count">69</div>
+                        <div class="tooltip">Notifications</div>
+                    </div>
+                    <img class="channel-pictures-icon" src="channel-pictures/channels01_profile.jpg">
                 </div>
             </div>
     
-            <div class="video-preview"> 
-                <a href="https://youtu.be/N0SdKcKxAzw?si=1sv7MkAoUG_PXG5K" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq722.webp">
-                        <div class="video-time">9.39</div>
-                    </div>
-                </a>
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/channels6_profile.jpg">
-                    </div >
-                    <div class="video-info">
-                        <p class="video-title">
-                            SEBAGAI MANUSIA KITA SEMAKIN BER-EVOLUSI (ke belakang) 🥵 - Ark Survival Ascended pt.2
-                        </p>
-                        <p class="video-author">
-                            davidbeatt
-                        </p>
-                        <p class="video-stats">
-                            7,8K views &#183; 1 day ago
-                        </p>
-                    </div>
-                   
+            <div class="sidebar">
+                <div class="sidebar-link">
+                    <img src="icons/home.svg">
+                    <div>Home</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/explore.svg">
+                    <div>Explore</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/subscriptions.svg">
+                    <div>Subscriptions</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/originals.svg">
+                    <div>Originals</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/youtube-music.svg">
+                    <div>Youtube Music</div>
+                </div>
+                <div class="sidebar-link">
+                    <img src="icons/library.svg">
+                    <div>Library</div>
                 </div>
             </div>
     
-            <div class="video-preview">
-                <a href="https://www.youtube.com/live/-bFuNtvmmbE?si=6e5XByZQBv7v3WwL" target="_blank">
+                 <div class="video-grid">
+                    <div class="video-preview"> 
                     <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hqdefault.webp">
-                        <div class="video-time">1.17.37</div>
+                        <img class="thumbnail" src="thumbnail/thumbnail-1.webp">
+                        <div class="video-time">00:00</div>
                     </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                Talking Tech and AI with Google CEO Sundar Pichai!
+                            </p>
+                            <p class="video-author">
+                                Marques Brownlee
+                            </p>
+                            <p class="video-stats">
+                                3.4M views &#183; 6 months ago
+                            </p>
+                        </div>                      
                     </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            AKHIRNYA TFT KELUAR DI MOBILE!! INGFOKAN META BARU - TEAMFIGHT TACTICS
-                        </p>
-                        <p class="video-author">
-                            Luthfi Halimawan
-                        </p>
-                        <p class="video-stats">
-                            93K views &#183; 13 days ago
-                        </p>
+                </div>
+        
+                <div class="video-preview"> 
+                    <div class="thumbnail-row"> 
+                        <img class="thumbnail" src="thumbnail/thumbnail-2.webp">
+                        <div class="video-time">00:00</div>
+                    </div>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Try Not To Laugh Challenge #9
+                            </p>
+                            <p class="video-author">
+                                Markiplier
+                            </p>
+                            <p class="video-stats">
+                                19M views &#183; 4 years ago
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://www.youtube.com/live/G9bTYw8iRsw?si=GWJQVBGBqO4EkiTs" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720.webp">
+                            <div class="video-time">59.58</div>
+                        </div>
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Windah Basudara.jpg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                UPDATE BARU AKU UPGRADE EMPANGKU JADI SEMANGKA! Aku si JURAGAN EMPANG
+                            </p>
+                            <p class="video-author">
+                                Windah Basudara
+                            </p>
+                            <p class="video-stats">
+                                761K views &#183; 10 days ago
+                            </p>
+                        </div>                  
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/M-4KIU_qTXs?si=6eRimQgtffMDjc1U" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq721.webp">
+                            <div class="video-time">47.45</div>
+                        </div>
+                    </a>
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channels5_profile.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Cara Main Heartsteel Supaya Tidak Too Soon | TFT Set 10 Guide | Teamfight Tactics Indonesia
+                            </p>
+                            <p class="video-author">
+                                maryo - TFT
+                            </p>
+                            <p class="video-stats">
+                                12k views &#183; 3 days ago
+                            </p>
+                        </div>           
+                    </div>
+                </div>
+        
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/N0SdKcKxAzw?si=1sv7MkAoUG_PXG5K" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq722.webp">
+                            <div class="video-time">9.39</div>
+                        </div>
+                    </a>
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/channels6_profile.jpg">
+                        </div >
+                        <div class="video-info">
+                            <p class="video-title">
+                                SEBAGAI MANUSIA KITA SEMAKIN BER-EVOLUSI (ke belakang) 🥵 - Ark Survival Ascended pt.2
+                            </p>
+                            <p class="video-author">
+                                davidbeatt
+                            </p>
+                            <p class="video-stats">
+                                7,8K views &#183; 1 day ago
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+        
+                <div class="video-preview">
+                    <a href="https://www.youtube.com/live/-bFuNtvmmbE?si=6e5XByZQBv7v3WwL" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault.webp">
+                            <div class="video-time">1.17.37</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                AKHIRNYA TFT KELUAR DI MOBILE!! INGFOKAN META BARU - TEAMFIGHT TACTICS
+                            </p>
+                            <p class="video-author">
+                                Luthfi Halimawan
+                            </p>
+                            <p class="video-stats">
+                                93K views &#183; 13 days ago
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://www.youtube.com/live/3Nb4o_J3z1A?si=bHDcFzllGeNxbt5C" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault2.webp">
+                            <div class="video-time">2.52.39</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                LETHAL COMPANY DAY! - <span class="blue-text">@GeraldLiuTV</span> <span class="blue-text">@2rockk</span> <span class="blue-text">@2Rock</span> <span class="blue-text">@heiakim</span> <span class="blue-text">@DavidBeatt</span>
+                            </p>
+                            <p class="video-author">
+                                Luthfi Halimawan
+                            </p>
+                            <p class="video-stats">
+                                99K views &#183; 17 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+                
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/LGbPSvwXEaQ?si=BEo9AkGSq4fVGI92" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault3.webp">
+                            <div class="video-time">11.10</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/RiseUp.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                10 Karakter Legends of Runeterra yang Cocok Dibuat Jadi Champions!
+                            </p>
+                            <p class="video-author">
+                                RISEUPTVID
+                            </p>
+                            <p class="video-stats">
+                                5,1K views &#183; 23 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+                
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/bqpwY7JoFck?si=xRkbVHu4RI2tW4Hl" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (1).webp">
+                            <div class="video-time">15.27</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/xceed.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Dua Karakter OP Parah! Wajib Gacha Yang Mana? - Black Clover M (Android)
+                            </p>
+                            <p class="video-author">
+                                Lein Xceed
+                            </p>
+                            <p class="video-stats">
+                                15K views &#183; 2 days ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/Kg8ZHBZS_2M?si=5DcUxxa08ZV8Wv2Z" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (2).webp">
+                            <div class="video-time">21.23</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Kurohiko.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                🔥 16 WinStreak, Samira Carry Reroll dengan Teknik Fast-8 - Combo Synergy Country Executioner Emo TFT
+                            </p>
+                            <p class="video-author">
+                                Kurohiko
+                            </p>
+                            <p class="video-stats">
+                                2,168 views &#183;  18 hours ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/YFCzzYJ55ao?si=s_qXzEWyjyWsFe1_" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hqdefault4.webp">
+                            <div class="video-time">40.29</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Deankt.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                VLOG MOTION IME FEST DAY 1 - KTMU BANG WINDAH !! NNTN JKT48 DARI DEKET BGT !! DI NOTICE ZEE JUGA !!
+                            </p>
+                            <p class="video-author">
+                                DEANKT
+                            </p>
+                            <p class="video-stats">
+                                213k views &#183; 5 days ago               
+                            </p>
+                        </div>        
+                    </div>
+                </div>
+    
+                <div class="video-preview"> 
+                    <a href="https://youtu.be/tUPw9ViaaiQ?si=zHmYKoFU_tXf-F04" target="_blank">
+                        <div class="thumbnail-row"> 
+                            <img class="thumbnail" src="thumbnail/hq720 (3).webp">
+                            <div class="video-time">36.39</div>
+                        </div>
+                    </a> 
+    
+                    <div class="video-info-grid">
+                        <div class="channel-picture">
+                            <img class="profile-picture" src="channel-pictures/Miawaug.jpg">
+                        </div>
+                        <div class="video-info">
+                            <p class="video-title">
+                                Keseruan MiawAug Jalan Jalan Di Motion Ime Festival 2023
+                            </p>
+                            <p class="video-author">
+                                MiawAug
+                            </p>
+                            <p class="video-stats">
+                                262k views &#183; 1 day ago               
+                            </p>
+                        </div>        
                     </div>
                 </div>
             </div>
-
-            <div class="video-preview"> 
-                <a href="https://www.youtube.com/live/3Nb4o_J3z1A?si=bHDcFzllGeNxbt5C" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hqdefault2.webp">
-                        <div class="video-time">2.52.39</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Luthfi Halimawan.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            LETHAL COMPANY DAY! - <span class="blue-text">@GeraldLiuTV</span> <span class="blue-text">@2rockk</span> <span class="blue-text">@2Rock</span> <span class="blue-text">@heiakim</span> <span class="blue-text">@DavidBeatt</span>
-                        </p>
-                        <p class="video-author">
-                            Luthfi Halimawan
-                        </p>
-                        <p class="video-stats">
-                            99K views &#183; 17 hours ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-            
-            <div class="video-preview"> 
-                <a href="https://youtu.be/LGbPSvwXEaQ?si=BEo9AkGSq4fVGI92" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hqdefault3.webp">
-                        <div class="video-time">11.10</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/RiseUp.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            10 Karakter Legends of Runeterra yang Cocok Dibuat Jadi Champions!
-                        </p>
-                        <p class="video-author">
-                            RISEUPTVID
-                        </p>
-                        <p class="video-stats">
-                            5,1K views &#183; 23 hours ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-            
-            <div class="video-preview"> 
-                <a href="https://youtu.be/bqpwY7JoFck?si=xRkbVHu4RI2tW4Hl" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq720 (1).webp">
-                        <div class="video-time">15.27</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/xceed.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            Dua Karakter OP Parah! Wajib Gacha Yang Mana? - Black Clover M (Android)
-                        </p>
-                        <p class="video-author">
-                            Lein Xceed
-                        </p>
-                        <p class="video-stats">
-                            15K views &#183; 2 days ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-
-            <div class="video-preview"> 
-                <a href="https://youtu.be/Kg8ZHBZS_2M?si=5DcUxxa08ZV8Wv2Z" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq720 (2).webp">
-                        <div class="video-time">21.23</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Kurohiko.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            🔥 16 WinStreak, Samira Carry Reroll dengan Teknik Fast-8 - Combo Synergy Country Executioner Emo TFT
-                        </p>
-                        <p class="video-author">
-                            Kurohiko
-                        </p>
-                        <p class="video-stats">
-                            2,168 views &#183;  18 hours ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-
-            <div class="video-preview"> 
-                <a href="https://youtu.be/YFCzzYJ55ao?si=s_qXzEWyjyWsFe1_" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hqdefault4.webp">
-                        <div class="video-time">40.29</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Deankt.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            VLOG MOTION IME FEST DAY 1 - KTMU BANG WINDAH !! NNTN JKT48 DARI DEKET BGT !! DI NOTICE ZEE JUGA !!
-                        </p>
-                        <p class="video-author">
-                            DEANKT
-                        </p>
-                        <p class="video-stats">
-                            213k views &#183; 5 days ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-
-            <div class="video-preview"> 
-                <a href="https://youtu.be/tUPw9ViaaiQ?si=zHmYKoFU_tXf-F04" target="_blank">
-                    <div class="thumbnail-row"> 
-                        <img class="thumbnail" src="thumbnail/hq720 (3).webp">
-                        <div class="video-time">36.39</div>
-                    </div>
-                </a> 
-
-                <div class="video-info-grid">
-                    <div class="channel-picture">
-                        <img class="profile-picture" src="channel-pictures/Miawaug.jpg">
-                    </div>
-                    <div class="video-info">
-                        <p class="video-title">
-                            Keseruan MiawAug Jalan Jalan Di Motion Ime Festival 2023
-                        </p>
-                        <p class="video-author">
-                            MiawAug
-                        </p>
-                        <p class="video-stats">
-                            262k views &#183; 1 day ago               
-                        </p>
-                    </div>        
-                </div>
-            </div>
-        </div>    
+        </nav>
     </body>    

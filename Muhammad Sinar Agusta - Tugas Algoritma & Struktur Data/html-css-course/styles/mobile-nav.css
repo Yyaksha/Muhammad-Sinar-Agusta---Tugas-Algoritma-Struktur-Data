@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .mobile-nav {
+    font-size: 18px;
+    grid-template-columns: 1fr;
+  }
+}
